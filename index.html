@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="thomyorke.jpg" type="image/x-icon">
+    <link rel="icon" href="foto projek/thomyorke.jpg" type="image/x-icon">
     <title>WisataKu - Jelajahi Keindahan Indonesia</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <style>
-        /* Hero Slider Styles */
         .hero-slider {
             position: relative;
             height: 90vh;
@@ -23,7 +22,7 @@
             height: 100%;
             opacity: 0;
             transform: translateX(100%);
-            transition: all 4s ease-in-out;
+            transition: all 0.1s ease-in-out;
             background-size: cover;
             background-position: center;
         }
@@ -67,7 +66,6 @@
             font-size: 1.25rem;
         }
 
-        /* Social Media Styles */
         .social-media {
             margin-top: 2rem;
             padding: 1.5rem;
@@ -120,7 +118,6 @@
             background: rgba(0,0,0,0.4);
         }
 
-        /* Search Box Enhancement */
         .search-box {
             background: rgba(255,255,255,0.95);
             backdrop-filter: blur(10px);
@@ -139,7 +136,6 @@
             align-items: end;
         }
 
-        /* Interactive Cards */
         .spot-card {
             transform-style: preserve-3d;
             transition: transform 5s;
@@ -168,7 +164,6 @@
             padding: 1.5rem;
         }
 
-        /* Popular Categories */
         .categories {
             padding: 4rem 0;
             background: linear-gradient(135deg, #f6f8fc 0%, #ffffff 100%);
@@ -200,7 +195,6 @@
             margin-bottom: 1rem;
         }
 
-        /* Stats Section */
         .stats {
             padding: 6rem 0;
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
@@ -222,17 +216,15 @@
             color: var(--accent);
         }
 
-        /* Animation for numbers */
         @keyframes countUp {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
         .animate-number {
-            animation: countUp 1s ease-out forwards;
+            animation: countUp 4s ease-out forwards;
         }
 
-        /* Testimonials */
         .testimonials {
             padding: 4rem 0;
             background: #f8fafc;
@@ -271,7 +263,6 @@
             margin-top: 1rem;
         }
 
-        /* Newsletter Section */
         .newsletter {
             padding: 4rem 0;
             background: var(--primary);
@@ -294,7 +285,6 @@
             font-size: 1rem;
         }
 
-        /* Floating Action Button */
         .fab {
             position: fixed;
             bottom: 2rem;
@@ -321,7 +311,6 @@
             font-size: 1.5rem;
         }
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             .hero-slider {
                 height: 70vh;
@@ -338,7 +327,7 @@
     </style>
 </head>
 <body>
-    <!-- Header -->
+
     <header class="header">
         <div class="container">
             <div class="header-inner">
@@ -357,9 +346,9 @@
         </div>
     </header>
 
-    <!-- Hero Slider -->
+    
     <section class="hero-slider">
-        <div class="slide active" style="background-image: url('indonesia_orig.png')">
+        <div class="slide active" style="background-image: url('foto projek/indonesia_orig.png')">
             <div class="slide-content">
                 <div class="container">
                     <h1>Jelajahi Keindahan Indonesia</h1>
@@ -368,7 +357,7 @@
                 </div>
             </div>
         </div>
-        <div class="slide" style="background-image: url('rajaampat.jpg')">
+        <div class="slide" style="background-image: url('foto projek/rajaampat.jpg')">
             <div class="slide-content">
                 <div class="container">
                     <h1>Surga Wisata Raja Ampat</h1>
@@ -377,7 +366,7 @@
                 </div>
             </div>
         </div>
-        <div class="slide" style="background-image: url('Borobudur.jpg')">
+        <div class="slide" style="background-image: url('foto projek/Borobudur.jpg')">
             <div class="slide-content">
                 <div class="container">
                     <h1>Warisan Budaya Borobudur</h1>
@@ -388,7 +377,7 @@
         </div>
     </section>
 
-    <!-- Search Box -->
+   
     <div class="container">
         <div class="search-box">
             <form class="search-form">
@@ -413,7 +402,7 @@
         </div>
     </div>
 
-    <!-- Categories Section -->
+    
     <section class="categories">
         <div class="container">
             <div class="section-title">
@@ -455,7 +444,7 @@
         </div>
     </section>
 
-    <!-- Spotlights -->
+    
     <section class="spotlights">
         <div class="container">
             <div class="section-title">
@@ -465,7 +454,7 @@
             <div class="spots-grid">
                 <!-- Spot 1 -->
                 <div class="spot-card">
-                    <img src="cewebali.jpg" alt="Bali" class="spot-img">
+                    <img src="foto projek/cewebali.jpg" alt="Bali" class="spot-img">
                     <div class="spot-content">
                         <h3 class="spot-title">Bali</h3>
                         <p class="spot-desc">Pulau Dewata dengan keindahan alam dan budaya yang memukau</p>
@@ -474,7 +463,7 @@
                 </div>
                 <!-- Spot 2 -->
                 <div class="spot-card">
-                    <img src="rajaampat.jpg" alt="Raja Ampat" class="spot-img">
+                    <img src="foto projek/rajaampat.jpg" alt="Raja Ampat" class="spot-img">
                     <div class="spot-content">
                         <h3 class="spot-title">Raja Ampat</h3>
                         <p class="spot-desc">Surga bawah laut dengan keindahan terumbu karang</p>
@@ -483,7 +472,7 @@
                 </div>
                 <!-- Spot 3 -->
                 <div class="spot-card">
-                    <img src="Borobudur.jpg" alt="Borobudur" class="spot-img">
+                    <img src="foto projek/Borobudur.jpg" alt="Borobudur" class="spot-img">
                     <div class="spot-content">
                         <h3 class="spot-title">Borobudur</h3>
                         <p class="spot-desc">Candi Buddha terbesar di dunia dengan arsitektur menakjubkan</p>
@@ -494,7 +483,7 @@
         </div>
     </section>
 
-    <!-- Features -->
+    
     <section class="features">
         <div class="container">
             <div class="section-title">
@@ -521,7 +510,7 @@
         </div>
     </section>
 
-    <!-- Stats Section -->
+    
     <section class="stats">
         <div class="container">
             <div class="stats-grid">
@@ -545,7 +534,7 @@
         </div>
     </section>
 
-    <!-- Testimonials -->
+    
     <section class="testimonials">
         <div class="container">
             <div class="section-title">
@@ -555,9 +544,9 @@
             <div class="testimonial-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-header">
-                        <img src="https://source.unsplash.com/100x100/?portrait" alt="Avatar" class="testimonial-avatar">
+                        <img src="foto projek/oranghitam.jpg" alt="Avatar" class="testimonial-avatar">
                         <div>
-                            <h4>Sarah Wijaya</h4>
+                            <h4>agus sutardi</h4>
                             <p>Traveler Enthusiast</p>
                         </div>
                     </div>
@@ -566,9 +555,9 @@
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-header">
-                        <img src="https://source.unsplash.com/100x100/?man" alt="Avatar" class="testimonial-avatar">
+                        <img src="foto projek/sorachi-gintama-gorilla.gif" alt="Avatar" class="testimonial-avatar">
                         <div>
-                            <h4>Budi Santoso</h4>
+                            <h4>nabil lukman 72</h4>
                             <p>Food Blogger</p>
                         </div>
                     </div>
@@ -577,9 +566,9 @@
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-header">
-                        <img src="https://source.unsplash.com/100x100/?woman" alt="Avatar" class="testimonial-avatar">
+                        <img src="foto projek/sakura.webp" alt="Avatar" class="testimonial-avatar">
                         <div>
-                            <h4>Linda Chen</h4>
+                            <h4>rhain pelangi</h4>
                             <p>Photography Enthusiast</p>
                         </div>
                     </div>
@@ -590,7 +579,7 @@
         </div>
     </section>
 
-    <!-- Newsletter -->
+    
     <section class="newsletter">
         <div class="container">
             <h2>Dapatkan Info Promo Terbaru</h2>
@@ -602,7 +591,7 @@
         </div>
     </section>
 
-    <!-- Floating Action Button -->
+    
     <a href="contact.html" class="fab">
         <i class='bx bx-message-rounded-dots'></i>
     </a>
@@ -615,7 +604,7 @@
         </div>
     </section>
 
-    <!-- Social Media Section -->
+    
     <section class="social-media">
         <div class="container">
             <h3>Ikuti Kami</h3>
@@ -633,7 +622,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
@@ -673,27 +662,20 @@
     </footer>
 
     <script>
-        // Sliding background animation
         const slides = document.querySelectorAll('.slide');
         let currentSlide = 0;
 
         function nextSlide() {
-            // Remove active class from current slide
             slides[currentSlide].classList.remove('active');
             
-            // Add prev class to current slide (slide to left)
             slides[currentSlide].classList.add('prev');
             
-            // Calculate next slide index
             currentSlide = (currentSlide + 1) % slides.length;
             
-            // Remove prev class from new slide
             slides[currentSlide].classList.remove('prev');
             
-            // Add active class to new slide (slide from right)
             slides[currentSlide].classList.add('active');
-            
-            // Remove prev class from old slide after animation
+
             setTimeout(() => {
                 slides.forEach((slide, index) => {
                     if (index !== currentSlide) {
@@ -703,7 +685,6 @@
             }, 4000);
         }
 
-        // Start the slideshow
         slides[0].classList.add('active');
         setInterval(nextSlide, 4000);
     </script>
